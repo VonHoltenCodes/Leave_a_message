@@ -1,18 +1,22 @@
 # Leave a Message Arduino Project
 
-An interactive Arduino project that allows users to leave and display messages.
+An interactive Arduino project that allows users to leave and display messages on a touchscreen interface. Record audio messages that can be played back later!
 
-![Leave a Message Project](screenshots/leave_a_message_main.jpg)
+![Leave a Message Idle Screen](screenshots/LAM_idle.JPEG)
 
 ## Overview
 
-This project implements a message board functionality using an Arduino-compatible microcontroller. Users can leave messages that are stored and displayed according to programmed criteria.
+This project implements a message board functionality using an Arduino-compatible microcontroller. Users can leave audio messages that are stored and played back according to programmed criteria.
 
-### Project Photos
+### Project Screens
 
-| Hardware Setup | Message Interface |
-|:-------------:|:-----------------:|
-| ![Hardware Setup](screenshots/leave_a_message_hardware.jpg) | ![Message Interface](screenshots/leave_a_message_interface.jpg) |
+| Recording Interface | Sessions Screen |
+|:------------------:|:---------------:|
+| ![Start Recording](screenshots/LAM_start-recording.JPEG) | ![Sessions](screenshots/LAM_Sessions.JPEG) |
+
+| Countdown Screen | Message Saved |
+|:----------------:|:-------------:|
+| ![Countdown](screenshots/LAM_countdown.JPEG) | ![Message Saved](screenshots/LAM_message-saved.JPEG) |
 
 ## Hardware Requirements
 
@@ -23,10 +27,14 @@ This project implements a message board functionality using an Arduino-compatibl
 
 ## Features
 
-- Message input and display
-- Message storage
-- User interaction interface
-- Configurable display options
+- Audio message recording and playback
+- Message storage and session management
+- Touch-based user interface
+- Audio level monitoring for optimal recording
+- Countdown timer for recording duration
+- Multiple message storage
+
+![Audio Level Monitoring](screenshots/LAM_Audio-level.JPEG)
 
 ## Installation
 
@@ -37,9 +45,11 @@ This project implements a message board functionality using an Arduino-compatibl
 ## Usage
 
 The system allows users to:
-- Compose new messages
-- View existing messages
-- Delete messages (if implemented)
+- Record new audio messages
+- Browse and play back previously recorded messages
+- Navigate through multiple recording sessions
+- Monitor audio levels during recording
+- View recording countdown timer
 
 ## License
 
