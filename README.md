@@ -2,9 +2,17 @@
 
 An interactive Arduino project that allows users to leave and display messages.
 
+![Leave a Message Project](screenshots/leave_a_message_main.jpg)
+
 ## Overview
 
 This project implements a message board functionality using an Arduino-compatible microcontroller. Users can leave messages that are stored and displayed according to programmed criteria.
+
+### Project Photos
+
+| Hardware Setup | Message Interface |
+|:-------------:|:-----------------:|
+| ![Hardware Setup](screenshots/leave_a_message_hardware.jpg) | ![Message Interface](screenshots/leave_a_message_interface.jpg) |
 
 ## Hardware Requirements
 
